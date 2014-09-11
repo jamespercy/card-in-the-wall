@@ -1,0 +1,11 @@
+
+{
+"name": "card-in-the-wall",
+"description": "just another card in the wall",
+"version": "0.0.1",
+"private": true,
+"dependencies": {
+	"express": "4.x",
+	"underscore": ">1.0.0"
+	}
+}

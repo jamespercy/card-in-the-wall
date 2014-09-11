@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html ng-app="CardInTheWall" class="container">
+<head>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/angular.js"></script>
+	<script src="js/controllers.js"></script>
+	<script src="js/underscore.js"></script>
+</head>
+<body ng-controller="SnapshotController">
+	<form class="form-horizontal" role="form">
+		<div class="form-group" ng-show="!loggedIn">
+			<div class="row">
+				<span>justAnother<h1>CardInTheWall</h1></span>
+			</div>
+			<div class="row" ng-show="letsGo" ng-cloak>
+				<video autoplay></video>
+			</div>
+		</div>
+	</form>
+</body>
+</html>
